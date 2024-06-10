@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bmi Checker</string>
+    <string name="hintw">Weight(Kg)</string>
+    <string name="hinth">Height(cm)</string>
+    <string name="textbut">CHECK</string>
+    <string name="hintout">---output---</string>
+    <string name="hintres">click on check to get the result</string>
+    <string name="ab">Credits - Pratham Khanduja</string>
+    <string name="extr">You are extremely obese :(</string>
+    <string name="ob">You are obese :(</string>
+    <string name="over">You are overweight :(</string>
+    <string name="fit">You are completely fit :)</string>
+    <string name="und">You are underweight :(</string>
+</resources>
