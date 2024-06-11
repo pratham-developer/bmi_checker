@@ -49,22 +49,22 @@ public class MainActivity extends AppCompatActivity {
                 if(inpw.isEmpty() &&  inph.isEmpty()){
                     Toast.makeText(getApplicationContext(),"fill weight and height",Toast.LENGTH_SHORT).show();
                     tview.setText(getString(R.string.hintres));
-                    tview.setTextColor(getResources().getColor(R.color.black));
-                    tview.setHintTextColor(getResources().getColor(R.color.unkn));
+                    tview.setTextColor(getResources().getColor(R.color.primary));
+                    tview.setHintTextColor(getResources().getColor(R.color.tertiary));
                     editout.setText(getString(R.string.hintout));
                 }
                 else if(inpw.isEmpty()){
                     Toast.makeText(getApplicationContext(),"fill weight",Toast.LENGTH_SHORT).show();
                     tview.setText(getString(R.string.hintres));
-                    tview.setTextColor(getResources().getColor(R.color.black));
-                    tview.setHintTextColor(getResources().getColor(R.color.unkn));
+                    tview.setTextColor(getResources().getColor(R.color.primary));
+                    tview.setHintTextColor(getResources().getColor(R.color.tertiary));
                     editout.setText(getString(R.string.hintout));
                 }
                 else if(inph.isEmpty()){
                     Toast.makeText(getApplicationContext(),"fill height",Toast.LENGTH_SHORT).show();
                     tview.setText(getString(R.string.hintres));
-                    tview.setTextColor(getResources().getColor(R.color.black));
-                    tview.setHintTextColor(getResources().getColor(R.color.unkn));
+                    tview.setTextColor(getResources().getColor(R.color.primary));
+                    tview.setHintTextColor(getResources().getColor(R.color.tertiary));
                     editout.setText(getString(R.string.hintout));
                 }
                 else{
